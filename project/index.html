@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chaordic</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab"/>
+
+</head>
+<body>
+    <!--logo-->
+    <header>
+        <div align="center" class="nav">
+            <img src="../Assets/logo-chaordic.png">
+        </div>
+    </header>
+    <!-- conteudo -->
+    <div class="init" >
+        <div>
+            <h1 class="text-title">
+                Encurte seus links.
+            </h1>
+            <p class="text-subtitle" >
+                Links são longos. Encurte os links que você deseja compartilhar,</br> e acompanhe enquanto viajam atráves da internet.
+            </p>
+            <input title="http://###.###" class="input-text" type="text" id="link" placeholder="Cole seu link aqui" />
+            <input type="submit" value="ENCURTAR" class="btn-orange" id="btn_link" onclick="shorten()">
+        </div>
+    </div>
+    <!--top5-->
+    <div>
+        <div class="title-danger">
+            TOP 5
+        </div>
+        <div align="center" id="top5" class="top5-content">
+        <!-- hits a partir do json -->
+        </div>
+   <div>
+   <!--hits-->
+   <div align="center" class="hits">
+        <div class="hits-triangle" ></div>
+        <div class="title-danger "> HITS </div>
+        <div class="title-danger-hits"></div> 
+        <div class="text-support-hits">Cliques em links</div>
+    </div>  
+    <!-- footer -->
+    <div class="footer" align="center">
+        <a class="footer-space" > chr.d </a>
+        <img src="../Assets/icon-twitter.png"/>
+        <img src="../Assets/icon-facebook.png"/>
+    </div>
+</body>
+<script type="text/javascript" src='js/script.js'></script>
+</html>

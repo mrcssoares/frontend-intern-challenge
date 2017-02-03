@@ -1,0 +1,227 @@
+.nav {
+    list-style-type: none;
+    padding-top: 20px;
+}
+.init {
+    background-image: url('../../Assets/background-home.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 985px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.text-title{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 300px;
+}
+.text-subtitle{
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #fff;
+}
+
+.text-danger{
+    float: left;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #AA1423;
+    margin-right: 250px;
+}
+
+.text-support{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #777;
+}
+.text-support-hits{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #777;
+}
+
+.top5-content{
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 3px solid #EEE;
+    margin-bottom: 12px;
+}
+.input-close {
+    outline: none;
+    border: none;
+    background: transparent;
+    font: 25px 'Roboto';
+    color:  #ff8c00 ;
+    height: 45px;
+
+}
+.input-text{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ff8c00;
+    margin-bottom: 12px;
+    background: transparent;
+    font: 25px 'Roboto';
+    color:  #ff8c00 ;
+    height: 45px;
+
+}
+::-webkit-input-placeholder {
+   color: #ff8c00;
+}
+
+.btn-orange{
+    padding: 13px;
+    box-sizing: border-box;
+    background: #ff4500;
+    border-style: none; 
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.title-danger {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Roboto Slab';
+    font-size: 50px;
+    color: #AA1423;
+
+}
+.title-danger-hits {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 50px;
+    color: #AA1423;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #777;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-right: 540px;
+    margin-left: 540px;
+}
+
+.hits{
+    background-color: #EEE;
+    padding-bottom: 60px;
+}
+.hits-triangle{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #fff;
+    margin-right: 620px;
+    margin-left: 620px;
+}
+
+.footer{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.footer-space{
+    padding-right: 800px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #AA1423;
+}
+
+@media(max-width: 1024px) {
+    .nav {
+        list-style-type: none;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .init {
+        background-image: url('../../Assets/background-home.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position:center;
+        height: auto;
+        text-align: top;
+    }
+    .input-text{
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #ff8c00;
+        margin-bottom: 12px;
+        background: transparent;
+        font: 55px 'Roboto';
+        color:  #ff8c00 ;
+        height: 45px;
+        width: 450px;
+        padding-bottom: 60px;
+
+    }
+
+    .btn-orange{
+        padding: 30px;
+        padding-bottom: 60px;
+        box-sizing: border-box;
+        background: #ff4500;
+        border-style: none; 
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: bold;
+        font-size: 30PX;
+    }
+
+   .top5-content{
+        margin-right: 120px;
+        margin-left: 120px;
+    }
+    .hits-triangle{
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid #fff;
+        margin-right: 430px;
+        margin-left: 430px;
+    }
+    .title-danger-hits {
+        text-align: center;
+        font-family: 'Roboto Slab';
+        font-size: 50px;
+        color: #AA1423;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #777;
+        border-radius: 6px;
+        background-color: #fff;
+        margin-right: 340px;
+        margin-left: 340px;
+    }
+    .text-danger{
+        padding-right: 100px;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 25px;
+        color: #AA1423;
+
+    }
+    .text-support{
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 25px;
+        color: #777;
+        padding-top: 15px;
+    }
+    .footer-space{
+        padding-right: 500px;
+        font-family: 'Roboto';
+        font-size: 25px;
+        color: #AA1423;
+    }
+}

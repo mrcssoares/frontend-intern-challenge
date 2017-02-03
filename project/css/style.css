@@ -84,6 +84,7 @@
 }
 
 .btn-orange{
+    cursor:pointer;
     padding: 13px;
     box-sizing: border-box;
     background: #ff4500;
